@@ -1,0 +1,9 @@
+1.포토샵에서 투명배경으로 원하는 Brush 모양을 만듬
+(64*64)
+2.알파맵이 적용되는 포맷으로 저장(ex)png)
+3.Asset에 Gizmos 폴더 생성
+4.Gizmos 폴더에 제작한 브러쉬를 Brush_xx 이름으로 저장
+5.유니티에서 terrain 생성
+6.terrain에 추가하고자 하는 브러쉬를 Drag
+7.Unity 재시작
+8.다시 확인하면 Terrain의 브러쉬 목록에 추가됨
