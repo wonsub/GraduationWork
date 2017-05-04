@@ -1,0 +1,14 @@
+//유니티에서 부서지는 오브젝트 구현
+
+1. 맥스에서 바위 오브젝트를 여러조각으로 분할
+(MaxScript에 올린 fracturevoronoi_v1.1를 이용)
+
+2.애니메이션 없이 FBX로 익스포트
+
+3.유니티에서 FBX 임포트
+
+4.분할된 각각에 대해서 rigidbody와 mesh collider 컴포넌트 생성
+
+5.mesh collider에 convex옵션 체크 
+
+6.실행시 충돌하면 부서지는 것을 확인
